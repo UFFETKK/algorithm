@@ -6,3 +6,5 @@ function solution(abs, signs) {
   }
   return answer;
 }
+
+// signs의 i번째가 true이면 answer에 양수를 더하고 false면 음수를 더함
