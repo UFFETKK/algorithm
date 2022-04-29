@@ -7,7 +7,7 @@ function solution(id_list, report, k) {
         report_list[item] =[]
     })
     
-    report.map((item)=>{
+    new_report.map((item)=>{
         const [reportt, reported] = item.split(" ")
         if (!report_list[reported].includes(reportt)) {
             report_list[reported].push(reportt)
@@ -22,3 +22,4 @@ function solution(id_list, report, k) {
         }
     }
     return answer;
+}
